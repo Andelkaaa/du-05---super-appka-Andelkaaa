@@ -1,3 +1,6 @@
+
+/*MOBILE*/
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -28,4 +31,36 @@ li:hover {
 .item1 {
     text-transform: uppercase;
     font-weight: 700;
+}
+
+header {
+    background: rgb(37,19,61);
+    background: linear-gradient(90deg, rgba(37,19,61,1) 25%, rgba(170,84,119,1) 100%);
+    color: #e5e5e5;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-weight: 400;
+    padding-left: 1.5rem;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+
+.button {
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #48418e;
 }
