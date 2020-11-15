@@ -6,6 +6,9 @@ body {
     line-height: 1.5;
 }
 
+
+/*nav*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,6 +36,8 @@ li:hover {
     font-weight: 700;
 }
 
+/*header*/
+
 header {
     background: rgb(37,19,61);
     background: linear-gradient(90deg, rgba(37,19,61,1) 25%, rgba(170,84,119,1) 100%);
@@ -41,14 +46,14 @@ header {
     padding-bottom: 1rem;
 }
 
-h1 {
+header h1 {
     font-weight: 400;
     padding-left: 1.5rem;
     text-transform: capitalize;
     font-size: 2.5rem;
 }
 
-h2 {
+header h2 {
     font-weight: 400;
     padding-left: 1.5rem;
 }
@@ -63,4 +68,31 @@ h2 {
 
 .button:hover {
     background-color: #48418e;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main h2 {
+    color: #48418e;
+    margin-bottom: 1rem;
+}
+
+.main p {
+    margin-top: 0.2rem;
+}
+
+svg {
+    width: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
