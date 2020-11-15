@@ -6,7 +6,6 @@ body {
     line-height: 1.5;
 }
 
-
 /*nav*/
 
 ul {
@@ -50,12 +49,14 @@ header h1 {
     font-weight: 400;
     padding-left: 1.5rem;
     text-transform: capitalize;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 header h2 {
     font-weight: 400;
     padding-left: 1.5rem;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
 }
 
 .button {
@@ -92,7 +93,108 @@ svg {
     width: 5rem;
 }
 
+/*footer*/
+
 footer {
     display: flex;
     justify-content: center;
+    background-color: #48418e;
+    color: white;
 }
+
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) {
+
+body {
+    margin: 0;
+}
+
+/*nav*/
+
+nav {
+    font-size: 0.7rem;
+    max-width: 420px;
+}
+
+li {
+    flex: 1;
+    align-items: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*header*/
+
+header {
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 3.2rem;
+    padding-top: 1rem;
+    margin-top: 0;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.button {
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.button2 {
+    margin-left: 0;
+}
+
+/*main*/
+
+.main {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.main p {
+    padding:0 1rem 0 1rem;
+    order: 2;
+}
+
+.main-travel,
+.main-chat,
+.main-adventure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h2 {
+    order: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
