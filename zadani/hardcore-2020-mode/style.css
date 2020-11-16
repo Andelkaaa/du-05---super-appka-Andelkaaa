@@ -4,6 +4,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
+    margin: 0;
 }
 
 /*nav*/
@@ -47,13 +48,15 @@ header {
 
 header h1 {
     font-weight: 400;
-    padding-left: 1.5rem;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 0;
+    padding:1rem 1.5rem 1rem 1.5rem;
+
 }
 
 header h2 {
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 1.5rem;
     font-size: 1.2rem;
     margin-right: 1.5rem;
@@ -78,6 +81,7 @@ header h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+
 }
 
 .main h2 {
@@ -87,6 +91,7 @@ header h2 {
 
 .main p {
     margin-top: 0.2rem;
+    padding: 0 1rem 0 1rem;
 }
 
 svg {
@@ -103,9 +108,9 @@ footer {
 }
 
 
-/*TABLET*/
+/*----------------*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
 
 body {
     margin: 0;
@@ -131,13 +136,14 @@ header {
     margin: 0;
     padding-bottom: 3rem;
 }
-
+    
 header h1 {
     font-size: 3.2rem;
-    padding-top: 1rem;
-    margin-top: 0;
+    line-height: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
-
+    
 header h2 {
     font-weight: 300;
     font-size: 2.2rem;
@@ -149,10 +155,39 @@ header h2 {
     display: inline;
     margin-left: 1.5rem;
 }
-
+    
 .button2 {
     margin-left: 0;
 }
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main h2 {
+    color: #48418e;
+    margin-bottom: 1rem;
+}
+
+.main p {
+    margin-top: 0.2rem;
+    padding:0 1rem 0 1rem;
+}
+
+svg {
+    width: 5rem;
+}
+}
+
+
+/*----------------*/
+
+@media screen and (min-width: 680px) {
 
 /*main*/
 
@@ -180,25 +215,33 @@ header h2 {
 .main h2 {
     order: 1;
 }
+}
 
 
-/*PC*/
+/*----------------*/
 
 @media screen and (min-width: 860px) {
 
 /*header*/
 
+header {
+    background: url(images/telefon.png), linear-gradient(90deg, rgba(37,19,61,1) 25%, rgba(170,84,119,1) 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
 
+header h1 {
+    font-size: 3.5rem;
+    line-height: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
 
-
-
-
-
-
-
-
-
-
+header h2 {
+    max-width: 30rem;
+    font-size: 2.5rem;
+}
 }
 
 
@@ -209,12 +252,4 @@ header h2 {
 
 
 
-
-
-
-
-
-
-
-}
 
