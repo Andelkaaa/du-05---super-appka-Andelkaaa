@@ -114,8 +114,8 @@ body {
 /*nav*/
 
 nav {
-    font-size: 0.7rem;
-    max-width: 420px;
+    font-size: 0.8rem;
+    max-width: 460px;
 }
 
 li {
@@ -179,6 +179,28 @@ header h2 {
 
 .main h2 {
     order: 1;
+}
+
+
+/*PC*/
+
+@media screen and (min-width: 860px) {
+
+/*header*/
+
+header {
+background: url("images/telefon.png");
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 
